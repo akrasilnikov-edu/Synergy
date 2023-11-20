@@ -25,27 +25,7 @@ public class Intro {
         return result;
 
     }
-
-    public static void task04(){
-        Random random = new Random();
-        int[] array = new int[10];
-
-        for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt(100,999);  // Генерация чисел от 100 до 999
-        }
-
-        System.out.println("Элементы массива:");
-        for (int num : array) {
-            System.out.print(num + " ");
-        }
-
-        int sum = 0;
-        for (int num : array) {
-            sum += num;
-        }
-        System.out.println("\nСумма элементов массива: " + sum);
-    }
-
+   
 
     public static void main(String[] args){
         task01();
